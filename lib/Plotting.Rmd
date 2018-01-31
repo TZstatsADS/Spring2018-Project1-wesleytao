@@ -1,5 +1,5 @@
 ---
-title: "Colloquialism Trend in the President inaguration Speeches"
+title: "Colloquialism and Pupolism trend of the President inaguration Speeches"
 author: "Wesley_Tao"
 date: "2018/1/30"
 output: html_document
@@ -29,7 +29,7 @@ We use python as our primary tool for word parsing and syntax analysis. The modu
 # 3 Result display
 ```{r}
 library(ggplot2)
-setwd("c:/Users/Wesle/Documents/GitHub/ADS_Teaching/Projects_StarterCodes/Project1-RNotebook/data")
+setwd("C:/Users/Wesle/Documents/GitHub/Spring2018-Project1-wesleytao/output")
 complexity<-read.csv("complexity.csv") # load data
 dateinfo<-read.csv("date2.csv") # load data
 complexity<-complexity[,3:ncol(complexity)]# get rid of useless index 
